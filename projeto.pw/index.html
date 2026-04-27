@@ -3,17 +3,102 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projeto Figma</title>
+    <title>Jenifer Teles - Portfólio</title>
+    <style>
+        /* Estilos básicos e simples */
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
 
+        /* Centralizando o conteúdo */
+        main {
+            max-width: 1000px;
+            margin: 50px auto;
+            background-color: white;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        /* Estilo do título */
+        h1 {
+            color: #333;
+            font-size: 28px;
+            margin-bottom: 20px;
+        }
+
+        /* Estilo do parágrafo */
+        p {
+            color: #666;
+            font-size: 16px;
+            line-height: 1.5;
+            margin-bottom: 25px;
+        }
+
+        /* Estilo da imagem */
+        img {
+            width: 100%;
+            max-width: 400px;
+            border-radius: 10px;
+            display: block;
+            margin: 20px auto;
+        }
+
+        /* Botão simples */
+        .botao {
+            background-color: #007bff;
+            color: white;
+            padding: 12px 25px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        .botao:hover {
+            background-color: #0056b3;
+        }
+
+        /* Rodapé */
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: white;
+            margin-top: 50px;
+        }
+
+        /* Deixar responsivo */
+        @media (max-width: 768px) {
+            main {
+                margin: 20px;
+                padding: 20px;
+            }
+            
+            h1 {
+                font-size: 22px;
+            }
+        }
+    </style>
 </head>
 <body>
     <header></header>
+    
     <main>
         <h1>Destaque sua presença online com um site moderno e eficaz</h1>
+        
         <p>Olá! Meu nome é Jenifer Teles e sou desenvolvedora Front-end, com foco em HTML, CSS e JavaScript. Trabalho ajudando pequenos negócios e designers a transformar boas ideias em realidade. Que tal conversarmos?</p>
+        
         <img src="imagem.1.jpg" alt="Foto de mulher com computador">
+        
+        <button class="botao" onclick="alert('Oi! Me chama no email: jenifer@exemplo.com')">Vamos conversar</button>
     </main>
-    <footer></footer>
-
+    
+    <footer>
+        <p>© 2024 Jenifer Teles</p>
+    </footer>
 </body>
 </html>
